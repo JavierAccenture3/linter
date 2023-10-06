@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-# npm run format && ng lint --fix && git add .
-ng lint --fix
+npm run format && ng lint --fix && git add .
+# ng lint --fix
